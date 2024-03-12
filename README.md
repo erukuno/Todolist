@@ -44,7 +44,7 @@ While developing the todo list app, I encountered several challenges, including:
 
 ## Contributor
 
-- EDWIN WACHIRA- Developer and Designer
+- EDWIN WACHIRA- Developer
 
 ## Technologies Used
 
