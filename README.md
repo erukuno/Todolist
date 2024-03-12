@@ -18,7 +18,7 @@ This is a simple todo list app developed by me as a project in bid to an assesme
 ## Features
 
 - Add tasks: Users can add new tasks to the todo list by entering the task description and clicking the "Add Task" button.
-- Mark tasks as completed: Users can mark tasks as completed by clicking on a checkbox or a designated area in the task item.
+
 - Edit tasks: Users can edit existing tasks by clicking on the task text, making changes, and saving the updated task.
 - Delete tasks: Users can delete tasks from the todo list by clicking on a delete button associated with each task item.
 
