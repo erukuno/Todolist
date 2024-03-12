@@ -13,7 +13,7 @@
 
 ## Overview
 
-This is a simple todo list app developed by [Your Name] as a personal project. The app allows users to add tasks to a list, mark them as completed, edit existing tasks, and delete tasks. It provides a clean and intuitive user interface for managing tasks efficiently.
+This is a simple todo list app developed by me as a project in bid to an assesment test by skye8. The app allows users to add tasks to a list, edit existing tasks, and delete tasks. It provides a clean and intuitive user interface for managing tasks efficiently.
 
 ## Features
 
@@ -37,12 +37,14 @@ The development of this todo list app followed a simple and iterative approach:
 While developing the todo list app, I encountered several challenges, including:
 
 - Managing state: Implementing state management in React.js to handle task data and user interactions effectively.
-- User interface design: Designing a visually appealing and intuitive user interface that provides a seamless experience for users.
+- Marking the completed tasks is not fully realized
+- implementing the design especially the color codes I had to source them through a third-party.
 - Handling user interactions: Implementing event handling and user interactions to allow users to add, edit, complete, and delete tasks effortlessly.
+- Within the allocated timeline I was unable to host, with more time I belive I can finish it
 
 ## Contributor
 
-- [Your Name] - Developer and Designer
+- EDWIN WACHIRA- Developer and Designer
 
 ## Technologies Used
 
