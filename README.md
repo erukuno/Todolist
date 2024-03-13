@@ -8,6 +8,7 @@
 - [Challenges](#challenges)
 - [Contributor](#contributor)
 - [Technologies Used](#technologies-used)
+- [Hosting](#hosting)
 - [Installation](#installation)
 - [License](#license)
 
@@ -52,6 +53,13 @@ While developing the todo list app, I encountered several challenges, including:
 - CSS
 - JavaScript
 - React.js
+
+  ## Hosting
+- This is the link to the hosting
+- ` https://todoapp-two-azure.vercel.app/ `
+  
++1
+  ## Technologies Used
 
 ## Installation
 
