@@ -59,6 +59,17 @@ export const TodoWrapper = () => {
           />
         )
       )}
+        <h1>Completed Todo List</h1>
+        {todos.map((todo) =>(
+          {todo.completed?<Todo
+            key={todo.id}
+            task={todo}
+            deleteTodo={deleteTodo}
+            editTodo={editTodo}
+            toggleComplete={toggleComplete}
+          />:<></>}
+        )
+      )}
     </div>
   );
 };
