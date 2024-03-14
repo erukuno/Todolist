@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React, { useState } from "react";
 
 const Form = ({ addTodo }) => {
   const [value, setValue] = useState("");
@@ -13,7 +13,7 @@ const Form = ({ addTodo }) => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit} className="TodoForm">
+      <form onSubmit={handleSubmit} className="TodoForm flex-between">
         <input
           type="text"
           value={value}
