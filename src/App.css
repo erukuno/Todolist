@@ -15,12 +15,7 @@ body {
 .App {
   text-align: center;
 }
-.TodoWrapper {
-  background: #f0e7fa;
-  margin-top: 5rem;
-  padding: 2rem;
-  border-radius: 5px;
-}
+
 h1 {
   display: flex;
   justify-content: center;
@@ -35,7 +30,7 @@ h1 {
 
 .TodoForm {
   width: 100%;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 
 .todo-input {
@@ -44,22 +39,23 @@ h1 {
   border: solid #000000;
   border-radius: 5px;
   padding: 0.5rem 1rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  width: 300px;
+  /* margin-top: 1rem;
+  margin-bottom: 2rem; */
+  width: 80%;
   color: #000000;
 }
 
 .todo-input::placeholder {
-  color: #000000;
+  color: #302d2d;
 }
 
 .todo-btn {
   background: black;
   color: #fff;
   border: none;
-  padding: 0.55rem;
+  padding: 0.5rem;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .Todo {
@@ -74,10 +70,43 @@ h1 {
 }
 
 .fa-trash {
-  margin-left: 0.75rem;
+  /* margin-left: 0.75rem; */
+  color: red;
 }
 
-.edit-icon,
-.delete-icon {
+.icon {
   cursor: pointer;
+}
+
+.edit-icon {
+  color: #2929da;
+}
+.completed-icon {
+  color: rgb(25, 124, 25);
+}
+.completed {
+  text-decoration: line-through;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex > * {
+  margin: 0 2px;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed-list {
+  margin-top: 2rem;
+}
+
+.todo-header {
+  color: #302d2d;
 }
