@@ -43,32 +43,21 @@ export const TodoWrapper = () => {
 
   return (
     <div className="TodoWrapper">
-      <h1>Todo List</h1>
+      <h1 className="todo-header">
+        Todo List ({todos.filter((todo) => !todo.completed).length})
+      </h1>
       <Form addTodo={addTodo} />
       {/* Display todos */}
-      {todos.map((todo) =>
-        todo.isEditing ? (
-          <EditTodoForm key={todo.id} editTodo={editTask} task={todo} />
-        ) : (
-          <Todo
-            key={todo.id}
-            task={todo}
-            deleteTodo={deleteTodo}
-            editTodo={editTodo}
-            toggleComplete={toggleComplete}
-          />
-        )
-      )}
-        <h1>Completed Todo List</h1>
-        {todos.map((todo) =>(
-          {todo.completed?<Todo
-            key={todo.id}
-            task={todo}
-            deleteTodo={deleteTodo}
-            editTodo={editTodo}
-            toggleComplete={toggleComplete}
-          />:<></>}
-        )
+          ) : (
+            <></>
+          )
+        )}
+      {todos.filter((todo) => todo.completed).length > 0 ? (
+        <>
+          <h1 className="completed-list todo-header">
+            Completed Todo ({todos.filter((todo) => todo.completed).length})
+            List
+          </h1>
       )}
     </div>
   );
